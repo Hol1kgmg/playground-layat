@@ -1,4 +1,4 @@
 pre-commit:
   commands:
     gitleaks:
-      run: mise x -- gitleaks git --staged --redact --no-banner
+      run: gitleaks git --staged --redact --no-banner
